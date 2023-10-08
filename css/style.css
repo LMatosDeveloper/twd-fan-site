@@ -1,0 +1,90 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Satisfy&family=Yellowtail&display=swap');
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+body {
+    background-color: #ccc7c0;
+    background-image: linear-gradient(to bottom, #455052, #ccc7c0);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.container img {
+    width: 100%;
+}
+
+nav {
+    background-color: #e9b55b00;
+    margin: 10px;
+
+}
+
+nav a:hover {
+    background-color: #a58245;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#menu li {
+    display: inline;
+    margin-right: 20px;
+
+}
+
+#menu a {
+    text-decoration: none;
+    font-family: 'Black Ops One';
+    color: black;
+    font-size: 1.7em;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 7px 7px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 10px #141414;
+}
+
+main img {
+    width: 100%;
+}
+
+main h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+h2  {
+    text-align: center;
+}
+footer {
+    text-align: center;
+    margin-top: 5px;
+}
